@@ -1,0 +1,99 @@
+Funciones de Strings:
+addcslashes — Escapa una cadena al estilo de C
+addslashes — Escapa un string con barras invertidas
+bin2hex — Convierte datos binarios en su representación hexadecimal
+chop — Alias de rtrim
+chr — Devuelve un caracter específico
+chunk_split — Divide una cadena en trozos más pequeños
+convert_cyr_string — Convierte de un juego de caracteres cirílico a otro juego de caracteres cirílico
+convert_uudecode — Descodifica una cadena codificada mediante uuencode
+convert_uuencode — Codificar mediante uuencode una cadena
+count_chars — Devuelve información sobre los caracteres usados en una cadena
+crc32 — Calcula el polinomio crc32 de una cadena
+crypt — Hash de cadenas de un sólo sentido
+echo — Muestra una o más cadenas
+explode — Divide un string en varios string
+fprintf — Escribir una cadena con formato a una secuencia
+get_html_translation_table — Devuelve la tabla de traducción utilizada por htmlspecialchars y htmlentities
+hebrev — Convierte texto hebreo lógico a texto visual
+hebrevc — Convertir texto de hebreo lógico a texto visual con conversión de línea nueva
+hex2bin — Decodifica una cadena binaria codificada hexadecimalmente
+html_entity_decode — Convierte todas las entidades HTML a sus caracteres correspondientes
+htmlentities — Convierte todos los caracteres aplicables a entidades HTML
+htmlspecialchars_decode — Convierte entidades HTML especiales de nuevo en caracteres
+htmlspecialchars — Convierte caracteres especiales en entidades HTML
+implode — Une elementos de un array en un string
+join — Alias de implode
+lcfirst — Pasa a minúscula el primer caracter de un string
+levenshtein — Cálculo de la distancia Levenshtein entre dos strings
+localeconv — Obtener información sobre el formato numérico
+ltrim — Retira espacios en blanco (u otros caracteres) del inicio de un string
+md5_file — Calcula el resumen criptográfico md5 de un archivo dado
+md5 — Calcula el 'hash' md5 de un string
+metaphone — Calcula la clave metaphone de un string
+money_format — Da formato a un número como un string de moneda
+nl_langinfo — Consulta información sobre el idioma y la configuración regional
+nl2br — Inserta saltos de línea HTML antes de todas las nuevas líneas de un string
+number_format — Formatear un número con los millares agrupados
+ord — Convierte el primer byte de un string a un valor entre 0 y 255
+parse_str — Convierte el string en variables
+print — Mostrar una cadena
+printf — Imprimir una cadena con formato
+quoted_printable_decode — Convierte un string quoted-printable en un string de 8 bits
+quoted_printable_encode — Convierte un string de 8 bits en un string quoted-printable
+quotemeta — Escapa meta caracteres
+rtrim — Retira los espacios en blanco (u otros caracteres) del final de un string
+setlocale — Establecer la información del localismo
+sha1_file — Calcula el hash sha1 de un archivo
+sha1 — Calcula el 'hash' sha1 de un string
+similar_text — Calcula la similitud entre dos strings
+soundex — Calcula la clave soundex de un string
+sprintf — Devuelve un string formateado
+sscanf — Interpreta un string de entrada de acuerdo con un formato
+str_getcsv — Convierte un string con formato CSV a un array
+str_ireplace — Versión insensible a mayúsculas y minúsculas de str_replace
+str_pad — Rellena un string hasta una longitud determinada con otro string
+str_repeat — Repite un string
+str_replace — Reemplaza todas las apariciones del string buscado con el string de reemplazo
+str_rot13 — Realizar la transformación rot13 sobre una cadena
+str_shuffle — Reordena aleatoriamente una cadena
+str_split — Convierte un string en un array
+str_word_count — Devuelve información sobre las palabras utilizadas en un string
+strcasecmp — Comparación de string segura a nivel binario e insensible a mayúsculas y minúsculas
+strchr — Alias de strstr
+strcmp — Comparación de string segura a nivel binario
+strcoll — Comparación de cadenas basada en la localidad
+strcspn — Averiguar la longitud del segmento inicial que no coincida con una máscara
+strip_tags — Retira las etiquetas HTML y PHP de un string
+stripcslashes — Desmarca la cadena marcada con addcslashes
+stripos — Encuentra la posición de la primera aparición de un substring en un string sin considerar mayúsculas ni minúsculas
+stripslashes — Quita las barras de un string con comillas escapadas
+stristr — strstr insensible a mayúsculas y minúsculas
+strlen — Obtiene la longitud de un string
+strnatcasecmp — Comparación de strings, insensible a mayúsculas y minúsculas, utilizando un algoritmo de "orden natural"
+strnatcmp — Comparación de strings utilizando un algoritmo de "orden natural"
+strncasecmp — Comparación de los primeros n caracteres de cadenas, segura con material binario e insensible a mayúsculas y minúsculas
+strncmp — Comparación segura a nivel binario de los primeros n caracteres entre strings
+strpbrk — Buscar una cadena por cualquiera de los elementos de un conjunto de caracteres
+strpos — Encuentra la posición de la primera ocurrencia de un substring en un string
+strrchr — Encuentra la última aparición de un caracter en un string
+strrev — Invierte una string
+strripos — Encuentra la posición de la última aparición de un substring insensible a mayúsculas y minúsculas en un string
+strrpos — Encuentra la posición de la última aparición de un substring en un string
+strspn — Averigua la longitud del segmento inicial de un string que consista únicamente en caracteres contenidos dentro de una máscara dada
+strstr — Encuentra la primera aparición de un string
+strtok — Tokeniza string
+strtolower — Convierte una cadena a minúsculas
+strtoupper — Convierte un string a mayúsculas
+strtr — Convierte caracteres o reemplaza substrings
+substr_compare — Comparación segura a nivel binario de dos o más strings desde un índice hasta una longitud de caracteres dada
+substr_count — Cuenta el número de apariciones del substring
+substr_replace — Reemplaza el texto dentro de una porción de un string
+substr — Devuelve parte de una cadena
+trim — Elimina espacio en blanco (u otro tipo de caracteres) del inicio y el final de la cadena
+ucfirst — Convierte el primer caracter de una cadena a mayúsculas
+ucwords — Convierte a mayúsculas el primer caracter de cada palabra de una cadena
+vfprintf — Escribe un string con formato en un flujo
+vprintf — Muestra una cadena con formato
+vsprintf — Devuelve una cadena con formato
+wordwrap — Ajusta un string hasta un número dado de caracteres

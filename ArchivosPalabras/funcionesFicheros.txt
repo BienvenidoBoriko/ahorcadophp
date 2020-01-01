@@ -1,0 +1,82 @@
+Funciones de Ficheros:
+basename — Devuelve el último componente de nombre de una ruta
+chgrp — Cambia el grupo del archivo
+chmod — Cambia el modo de un fichero
+chown — Cambia el propietario del fichero
+clearstatcache — Limpia la caché de estado de un archivo
+copy — Copia un fichero
+delete — Véase unlink o unset
+dirname — Devuelve la ruta de un directorio padre
+disk_free_space — Devuelve el espacio disponible de un sistema de archivos o partición de disco
+disk_total_space — Devuelve el tamaño total de un sistema de archivos o partición de disco
+diskfreespace — Alias de disk_free_space
+fclose — Cierra un puntero a un archivo abierto
+feof — Comprueba si el puntero a un archivo está al final del archivo
+fflush — Vuelca la salida a un archivo
+fgetc — Obtiene un carácter de un puntero a un archivo
+fgetcsv — Obtiene una línea de un puntero a un fichero y la analiza en busca de campos CSV
+fgets — Obtiene una línea desde el puntero a un fichero
+fgetss — Obtiene un línea desde un puntero a un archivo y elimina las etiquetas HTML
+file_exists — Comprueba si existe un fichero o directorio
+file_get_contents — Transmite un fichero completo a una cadena
+file_put_contents — Escribir datos en un fichero
+file — Transfiere un fichero completo a un array
+fileatime — Obtiene el momento del último acceso a un archivo
+filectime — Obtiene el momento del último cambio del i-nodo de un archivo
+filegroup — Obtiene el grupo de un archivo
+fileinode — Obtiene el i-nodo del archivo
+filemtime — Obtiene el momento de la última modificación de un archivo
+fileowner — Obtiene el propietario de un archivo
+fileperms — Obtiene los permisos de un fichero
+filesize — Obtiene el tamaño de un fichero
+filetype — Obtiene el tipo de fichero
+flock — Bloqueo de ficheros recomendado y portable
+fnmatch — Compara un nombre de fichero con un patrón
+fopen — Abre un fichero o un URL
+fpassthru — Escribe toda la información restante de un puntero a un archivo
+fputcsv — Dar formato CSV a una línea y escribirla en un puntero a un fichero
+fputs — Alias de fwrite
+fread — Lectura de un fichero en modo binario seguro
+fscanf — Analiza la entrada desde un archivo de acuerdo a un formato
+fseek — Busca sobre un puntero a un fichero
+fstat — Obtiene información acerca de un archivo usando un puntero al archivo abierto
+ftell — Devuelve la posición de lectura/escritura actual del puntero a un fichero
+ftruncate — Trunca un archivo a una longitud dada
+fwrite — Escritura de un archivo en modo binario seguro
+glob — Buscar coincidencias de nombres de ruta con un patrón
+is_dir — Indica si el nombre de archivo es un directorio
+is_executable — Indica si el nombre de archivo es ejecutable
+is_file — Indica si el nombre de fichero es un fichero normal
+is_link — Indica si el nombre de archivo es un enlace simbólico
+is_readable — Indica si un fichero existe y es legible
+is_uploaded_file — Indica si el archivo fue subido mediante HTTP POST
+is_writable — Indica si un archivo existe y es escribible
+is_writeable — Alias de is_writable
+lchgrp — Cambia el grupo de un enlace simbólico
+lchown — Cambia el propietario de un enlace simbólico
+link — Crea un enlace duro
+linkinfo — Obtiene información acerca de un enlace
+lstat — Da información acerca de un archivo o enlace simbólico
+mkdir — Crea un directorio
+move_uploaded_file — Mueve un archivo subido a una nueva ubicación
+parse_ini_file — Analiza un fichero de configuración
+parse_ini_string — Analiza una cadena de configuración
+pathinfo — Devuelve información acerca de la ruta de un fichero
+pclose — Cierra un proceso de un puntero a un fichero
+popen — Abre un proceso de un puntero a un fichero
+readfile — Realizar la salida de un fichero
+readlink — Devuelve el objetivo de un enlace simbólico
+realpath_cache_get — Obtiene las entradas de la caché de la ruta real
+realpath_cache_size — Obtiene el tamaño de la caché de la ruta real
+realpath — Devuelve el nombre de la ruta absoluta canonizado
+rename — Renombra un fichero o directorio
+rewind — Rebobina la posición de un puntero a un archivo
+rmdir — Elimina un directorio
+set_file_buffer — Alias de stream_set_write_buffer
+stat — Da información acerca de un fichero
+symlink — Crea un enlace simbólico
+tempnam — Crea un fichero con un nombre de fichero único
+tmpfile — Crea un archivo temporal
+touch — Establece el momento de acceso y modificación de un archivo
+umask — Cambia la máscara de usuario actual
+unlink — Borra un fichero

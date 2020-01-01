@@ -1,0 +1,86 @@
+header,.formPrincipal,.formPrincipal form,h1,.formJugando,.formTerminado{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%;
+}
+.hJuego,.tabla,.formJugando form,.formTerminado form{
+	display:flex;
+	flex-flow:row wrap;
+}
+.tabla{
+	align-items:center;
+	justify-content:center;
+}
+.hJuego,.formJugando,.formTerminado{
+	justify-content:center;
+}
+
+.hJuego :nth-child(3){
+	text-align:right;
+}
+
+.hJuego :nth-child(2){
+	text-align:left;
+}
+.hJuego h2{
+	margin:0;
+}
+
+ h1,h2{
+	font-family:Arial;
+	margin-bottom:0.8em;
+	margin-top:0.8em;
+}
+
+ h2,table,imgHorca,.formJugando form,.formTerminado form{
+	width:40%;
+}
+
+.hJuego div img{
+	max-height:250px;
+	max-width:300px;
+}
+.hJuego p{
+	text-align:center;
+	margin:0;
+}
+header div img,header div h1,header,.hJuego,.tabla,.formJugando,.formTerminado,.hJuego p{
+	width:100%;	
+}
+.formJugando,.formTerminado,header div,.formPrincipal form{
+	margin-top:0.9em;
+}
+ header div,.formPrincipal form{
+	width:30%;
+}
+
+.formJugando input[type="submit"],.formTerminado input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  margin:0.4em;
+  padding: 9px 15px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  width:30%;
+}
+
+.formPrincipal input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  width:40%;
+}
+
+table,tr,td{
+	border:1px solid black;
+	border-collapse:collapse;
+	padding:0.8em;
+}
+body{
+	background-color:#bcf5e7;
+}

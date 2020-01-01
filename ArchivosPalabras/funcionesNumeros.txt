@@ -1,0 +1,50 @@
+Funciones de Numeros:
+abs — Valor absoluto
+acos — Arco coseno
+acosh — Arco coseno hiperbólico
+asin — Arco seno
+asinh — Arco seno hiperbólico
+atan2 — Arco tangente de dos variables
+atan — Arco tangente
+atanh — Arco tangente hiperbólica
+base_convert — Convertir un número entre bases arbitrarias
+bindec — Binario a decimal
+ceil — Redondear fracciones hacia arriba
+cos — Coseno
+cosh — Coseno hiperbólico
+decbin — Decimal a binario
+dechex — Decimal a hexadecimal
+decoct — Decimal a octal
+deg2rad — Convierte el número en grados a su equivalente en radianes
+exp — Calcula la exponencial de e
+expm1 — Devuelve exp(numero)-1, calculado de tal forma que no pierde precisión incluso cuando el valor del numero se aproxima a cero.
+floor — Redondear fracciones hacia abajo
+fmod — Devuelve el resto en punto flotante (módulo) de la división de los argumentos
+getrandmax — Mostrar el mayor valor aleatorio posible
+hexdec — Hexadecimal a decimal
+hypot — Calcula la longitud de la hipotenusa de un triángulo de ángulo recto
+intdiv — División entera
+is_finite — Encuentra si un valor es un número finito legal
+is_infinite — Encuentra si un valor es infinito
+is_nan — Encuentra si un valor no es un número
+lcg_value — Generador lineal congruente combinado
+log10 — Logaritmo en base 10
+log1p — Devuelve log(1 + numero), calculado de tal forma que no pierde precisión incluso cuando el valor del numero se aproxima a cero.
+log — Logaritmo natural
+max — Encontrar el valor más alto
+min — Encontrar el valor más bajo
+mt_getrandmax — Mostrar el mayor valor aleatorio posible
+mt_rand — Genera un mejor número entero aleatorio
+mt_srand — Genera el mejor número aleatorio a partir de una semilla
+octdec — Octal a decimal
+pi — Obtener valor de pi
+pow — Expresión exponencial
+rad2deg — Convierte el número en radianes a su equivalente en grados
+rand — Genera un número entero aleatorio
+round — Redondea un float
+sin — Seno
+sinh — Seno hiperbólico
+sqrt — Raíz cuadrada
+srand — Genera un número aleatorio a partir de una semilla
+tan — Tangente
+tanh — Tangente hiperbólica
